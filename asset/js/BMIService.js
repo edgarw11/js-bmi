@@ -1,0 +1,12 @@
+var BMIService = {
+    
+    getIndex: function(weight, height){
+        return weight / (height * height);
+    },
+    
+    getDescription: function(index){
+        //TODO to be implemented
+        return null;
+    }
+
+};
